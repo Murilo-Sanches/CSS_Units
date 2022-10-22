@@ -1,0 +1,66 @@
+.box {
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 255, 225, 0.5);
+  margin: 0.5rem;
+  outline: 1px solid black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent {
+  width: 50%;
+  height: auto;
+  border: 1px solid black;
+}
+.fifty-percent {
+  width: 50%;
+}
+.one-hundred-px {
+  width: 100px;
+}
+.fifty-vw {
+  width: 50vw;
+}
+.twenty-five-vh {
+  height: 25vh;
+}
+.parent-font {
+  width: auto;
+  font-size: 30px;
+  border: 1px solid black;
+}
+.one-em {
+  font-size: 1em;
+}
+.one-rem {
+  font-size: 1rem;
+}
+.two-em {
+  font-size: 2em;
+}
+.two-rem {
+  font-size: 2rem;
+}
+.two-hundred-percent {
+  font-size: 200%;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container.large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.em-icon {
+  width: 1em;
+  height: 1em;
+  background-color: red;
+}
+.rem-icon {
+  width: 1rem;
+  height: 1rem;
+  background-color: red;
+}
